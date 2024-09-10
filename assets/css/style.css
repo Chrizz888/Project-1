@@ -26,6 +26,8 @@ font-family: "SUSE", sans-serif;
 /*header*/
 header {background-color: blueviolet;}
 
+h1 {font-family: "SUSE", sans-serif;}
+
 /*main*/
 main {background-color: rgb(191, 161, 205);
     /*Push footer down*/
