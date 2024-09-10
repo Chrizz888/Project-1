@@ -49,10 +49,22 @@ h1 {font-family: "SUSE", sans-serif;
        letter-spacing: 4px;
        list-style-type: none;}
 
-       #menu > li {
-       margin-bottom: 1em;
-       
-       }      
+#menu > li {
+       margin-bottom: 1em;}      
+
+
+       /*Navbar Style with Dropdown Toggle*/
+
+nav { 
+position: absolute;
+background-color: rgb(202, 162, 239);
+width:100% ;
+left: 0;
+padding:0 1rem ;
+box-shadow: 0 2px 2px hsl(267, 80%, 84%);
+display:none;
+
+}
 
 .active {
     border-bottom: 1px solid rgb(202, 202, 255);
