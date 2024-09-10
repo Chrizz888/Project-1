@@ -118,5 +118,14 @@ footer {background-color: fuchsia;}
 
         display: none;
     }
+
+    #logo {font-size: 280%;
+           line-height: 75%;
+           margin: 0 0.5rem;}
+
+           /*Main Content*/
+           main {
+             margin-top: 79px;
+           }
 }
     
