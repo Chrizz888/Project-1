@@ -1,3 +1,8 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+
+
 /*Asterisk Wildcard selector to override default styles added by the browser*/
 
 *{padding: 0;
@@ -12,6 +17,7 @@ display: flex;
 flex-direction: column;
 /*Generic Project styles*/
 color: #333;
+font-family: "SUSE", sans-serif;
 
 }
 
