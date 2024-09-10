@@ -77,10 +77,19 @@ top: 100%;}
 #nav-toggle:checked~nav {
 display: block;}
 
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
 /*main*/
 main {background-color: rgb(191, 161, 205);
     /*Push footer down*/
 flex: 1 0 auto;
+margin-top: 47px;
 }
 
 /*footer*/
