@@ -44,6 +44,22 @@ h1 {font-family: "SUSE", sans-serif;
     color: rgb(202, 202, 255);
 }
 
+#menu {
+       font-size: 110%;
+       letter-spacing: 4px;
+       list-style-type: none;}
+
+       #menu > li {
+       margin-bottom: 1em;
+       
+       }      
+
+.active {
+    border-bottom: 1px solid rgb(202, 202, 255);
+}
+
+
+
 /*main*/
 main {background-color: rgb(191, 161, 205);
     /*Push footer down*/
