@@ -29,7 +29,10 @@ header {background-color: blueviolet;
         position: fixed;
         z-index: 99;
         width: 100%;
-        box-shadow: 0 2px 2px hsl(267, 80%, 84%);}
+        box-shadow: 0 2px 2px hsl(267, 80%, 84%);
+        display: flex;
+        justify-content:space-between;
+        align-items: baseline;}
 
 header a { text-decoration: none;
            color: inherit;
@@ -53,7 +56,11 @@ h1 {font-family: "SUSE", sans-serif;
        margin-bottom: 1em;}      
 
 
-       /*Navbar Style with Dropdown Toggle*/
+       .active {
+        border-bottom: 1px solid rgb(202, 202, 255);
+        
+        /*Navbar Style with Dropdown Toggle*/
+    
 
 nav { 
 position: absolute;
@@ -63,14 +70,12 @@ left: 0;
 padding:0 1rem ;
 box-shadow: 0 2px 2px hsl(267, 80%, 84%);
 display:none;
+top: 100%;}
+  }
 
-}
-
-.active {
-    border-bottom: 1px solid rgb(202, 202, 255);
-}
-
-
+/*nav-toggle*/
+#nav-toggle:checked~nav {
+display: block;}
 
 /*main*/
 main {background-color: rgb(191, 161, 205);
