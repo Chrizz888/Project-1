@@ -31,7 +31,18 @@ header {background-color: blueviolet;
         width: 100%;
         box-shadow: 0 2px 2px hsl(267, 80%, 84%);}
 
-h1 {font-family: "SUSE", sans-serif;}
+header a { text-decoration: none;
+           color: inherit;
+
+           
+
+}
+
+h1 {font-family: "SUSE", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(202, 202, 255);
+}
 
 /*main*/
 main {background-color: rgb(191, 161, 205);
