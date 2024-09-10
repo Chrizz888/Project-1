@@ -5,7 +5,15 @@ margin: 0;
 box-sizing: border-box;
 }
 
+/*General Styles*/
+body {
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+/*Generic Project styles*/
+color: #333;
 
+}
 
 
 
@@ -13,7 +21,10 @@ box-sizing: border-box;
 header {background-color: blueviolet;}
 
 /*main*/
-main {background-color: darkorchid;}
+main {background-color: rgb(191, 161, 205);
+    /*Push footer down*/
+flex: 1 0 auto;
+}
 
 /*footer*/
 footer {background-color: fuchsia;}
